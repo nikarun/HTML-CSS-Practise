@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Mono&display=swap");
+/* css variable */
+:root {
+  --primary-color: #7c3aed;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+hr {
+  margin: 2rem 0rem;
+}
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.center-container {
+  max-width: 700px;
+  margin: auto;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: white;
+}
+.secondary-link {
+  color: var(--primary-color);
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid var(--primary-color);
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-inline-display {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.nav-container {
+  border-radius: 5px;
+  border: 10px solid var(--primary-color);
+  background-color: var(--primary-color);
+  height:100px;
+}
+.nav-header {
+  color: white;
+  padding: 1rem 1rem;
+  font-weight: bold;
+}
+.nav-items {
+  color: white;
+  float: left;
+}
+.nav-unordered-list {
+  float: right;
+}
+.hero{
+    padding:2rem 0rem;
+    
+}
+.hero .hero-img{
+    max-width:300px;
+    display:block;
+    margin:auto; 
+}
+.hero .hero-heading{
+  text-align:center;
+    font-size:2rem;
+}
+/* header */
