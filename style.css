@@ -97,3 +97,25 @@ color:white;
     padding:1rem;
 
 }
+.highlight{
+  color:var(--primary-color);
+}
+.technologies{
+  font-size: 1.2rem;
+}
+.append-padding{
+  padding-top:60px;
+}
+.blog_heading{
+  text-align: center;
+ padding-top:50px;
+}
+.blog_display{
+  color:var(--primary-color);
+}
+.blog_fix{
+  text-align: left;
+}
+.seconday_display{
+  margin-top:200px;
+}
